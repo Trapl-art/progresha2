@@ -8,28 +8,31 @@ body {
   gap: 650px;
 }
 .wrapper {
-  max-width: 830px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 .favorite {
   background-color: #fff;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 1%;
+  line-height: 30px;
 }
 .favorite__item {
   list-style-type:none;
 }
 .button {
   display: flex;
-  gap: 50px;
+  gap: 70px;
 }
 .button__item {
-  border-radius: 5%;
+  border-radius: 10px;
   list-style-type:none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #button {
@@ -37,9 +40,12 @@ body {
   color: #fff;
 }
 hr {
-  width: 800px;
+  width: 900px;
 
 }
 #button__favorite {
   color: rgb(33,131,170);
+}
+.update {
+  margin-left: 520px;
 }
