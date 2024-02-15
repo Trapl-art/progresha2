@@ -19,6 +19,7 @@ ul {list-style-type: none;}
     margin-left: 450px;
     margin-top: 50px;
     color:#ffffff;
+    overflow: scroll;
 }
 .navigation {
     background-color: #222424;
@@ -85,6 +86,8 @@ img {
     margin-left: 400px;
     width: 180px;
     border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .nav_but_element {
     padding-top: 15px;
@@ -102,7 +105,7 @@ img {
     margin-left: 20px;
     margin-top: 30px;
     border-radius: 10px;
-
+    padding-left: 10px;
 }
 .people {
     margin-top: 10px;
@@ -128,4 +131,8 @@ select {
 
 select::-ms-expand {
     display: none;
+}
+
+.left_block::-webkit-scrollbar {
+    width: 10px;
 }
